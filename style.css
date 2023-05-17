@@ -1,26 +1,35 @@
-/*
-
 * {
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
     outline: 0;
     font-family: 'Times New Roman', serif;
 }
-*/
 
+.head{
+    height: 6rem;
+    background-image: url("source/img/banner.jpeg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head h1{
+    font-size: 2.5rem;
+    color: white;
+    text-shadow: 2px 2px black;
+}
 
 .opcoes{
     height: 2.5rem;
-    background-color: blue;
+    background-color: rgb(44, 116, 226);
 }
 
 .opcoes ul{
     height: 100%;
     display: flex;
+    padding: 0;
     justify-content: space-around;
     align-items: center;
-    
 }
 
 .opcoes ul li{
@@ -32,7 +41,8 @@
 }
 
 .opcoes ul li:hover{
-    background-color: rgb(81, 81, 231);
+    background-color: rgb(72, 139, 240);
+    cursor: pointer;
 }
 
 .opcoes ul a{
@@ -40,4 +50,112 @@
     font-size: 2rem;
     color: white;
     text-decoration: none;
+}
+
+/*Inicio*/
+.inicio{
+    padding: 15px;
+    font-size: 1.2rem;
+}
+
+.inicio article{
+    padding-bottom: 40px;
+} 
+
+.atuacao ol{
+    list-style-type: upper-roman;
+}
+
+.modalidades ul{
+    list-style-type: square;
+}
+/**/
+
+/*Curso*/
+
+.curso{
+    height: calc(100% - 12.5rem);
+    padding: 15px;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table{
+    width: 100%;
+}
+
+.table tr{
+    height: 50px;
+}
+
+/**/
+
+/*FAQ*/
+#perguntas ol li{
+    padding-top: 15px;
+}
+
+.faq section{
+    padding-bottom: 100vh;
+}
+/**/
+
+
+/*Contato*/
+.sugestao{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+#sugestao{
+    height: 5rem;
+}
+
+.botao{
+    font-size: 1rem;
+    color: white;
+    background-color: rgb(72, 139, 240);
+    height: 6rem;
+    width: 6rem;
+    border-radius: 100rem;
+}
+
+.contato form{
+    padding: 15px;
+}
+
+.contato fieldset{
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    font-size: 1.5rem;
+    gap: 20px;
+}
+
+.contato div, .contato input{
+    font-size: 1.5rem;
+    font: bolder;
+}
+
+.contato input{
+    font-family: sans-serif;
+}
+
+/**/
+
+footer{
+    position: fixed;
+    color: white;
+    height: 4rem;
+    width: 100%;
+    background-color: rgb(44, 116, 226);
+    padding-left: 10px;
+    font-size: 1.8rem;
+    display: flex;
+    align-items: center;
+    bottom: 0;
 }
