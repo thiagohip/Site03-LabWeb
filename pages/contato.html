@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <div class="head">
+            <h1>CEFET-MG - Campus Varginha - Curso Técnico</h1>
+        </div>
+        <nav class="opcoes">
+            <ul>
+                <li>
+                    <a href="../index.html">Início</a>
+                </li>
+                <li>
+                    <a href="curso.html">Curso</a>
+                </li>
+                <li>
+                    <a href="faq.html">FAQ</a>
+                </li>
+                <li>
+                    <a href="contato.html">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main class="contato">
+        <form>
+            <fieldset>
+                <legend>Contato</legend>
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" placeholder="João">
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" placeholder="name@gmail.com">
+                </div>
+                <div>
+                    <input type="radio" id="male">
+                    <label for="male">Masculino</label>
+                    <input type="radio" id="female">
+                    <label for="female">Feminino</label>
+                </div>
+                <div>
+                    <label for="estado">Estado/Cidade:</label>
+                    <select name="estado" id="estado">
+                        <option value=""></option>
+                        <option value="">AC</option>
+                        <option value="">AL</option>
+                        <option value="">AP</option>
+                        <option value="">AM</option>
+                        <option value="">BA</option>
+                        <option value="">CE</option>
+                        <option value="">ES</option>
+                        <option value="">GO</option>
+                        <option value="">MA</option>
+                        <option value="">MT</option>
+                        <option value="">MS</option>
+                        <option value="">MG</option>
+                        <option value="">PA</option>
+                        <option value="">PB</option>
+                        <option value="">PR</option>
+                        <option value="">PE</option>
+                        <option value="">PI</option>
+                        <option value="">RJ</option>
+                        <option value="">RN</option>
+                        <option value="">RS</option>
+                        <option value="">RO</option>
+                        <option value="">RR</option>
+                        <option value="">SC</option>
+                        <option value="">SP</option>
+                        <option value="">SE</option>
+                        <option value="">TO</option>
+                        <option value="">DF</option>
+                    </select>
+                    <input type="text" placeholder="Varginha">
+                </div>
+                <div>
+                    <label for="file">Selecione um arquivo</label>
+                    <input type="file" name="" id="file">
+                </div>
+                <div class="sugestao">
+                    <label for="sugestao">Sugestão:</label>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </div>
+                <div>
+                    <input type="submit" class="botao">
+                    <input type="reset" class="botao" value="Limpar">
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        &copy copyleft
+    </footer>
+</body>
+</html>
